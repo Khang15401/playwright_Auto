@@ -17,8 +17,8 @@ let eyes;
   const page = await context.newPage();
 
   //   const eyes = new Eyes(new VisualGridRunner({ testConcurrency: 5 }));
-  eyes = new Eyes();
-  eyes.setApiKey(process.env.APPLITOOLS_API_KEY);
+  // eyes = new Eyes();
+  // eyes.setApiKey(process.env.APPLITOOLS_API_KEY);
 
   try {
     //   await page.setViewportSize({ width: 1500, height: 800 });
